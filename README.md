@@ -6,17 +6,20 @@ Initial steps:
 ------------
 1. Install Vagrant and VirtualBox
 2. Launch the Vagrant VM using the following steps
+```
   $vagrant up
   $vagrant ssh
   $cd /vagrant
+  ```
 
 
 Database Set up:
 ----------------- 
 To create a database and populate data, run the following commands
-
+```
   $python database_setup.py
   $python lotsofmenus.py
+  ```
 
 Run Application:
 ----------------
